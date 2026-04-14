@@ -183,7 +183,7 @@ int main(int argc, char* argv[]) {
     struct pcap_pkthdr* header;
     const u_char* packet;
     
-    printf("\nARP Spoofing start\n");
+    printf("\nARP Spoofing started\n");
 
     while (1) {
         int res = pcap_next_ex(handle, &header, &packet);
